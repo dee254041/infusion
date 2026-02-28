@@ -33,17 +33,20 @@ Set to: mongodb+srv://<username>:<password>@<cluster>.mongodb.net/?retryWrites=t
 
 **4. CLOUDINARY_CLOUD_NAME**
 ```
-Keep: daxildt7a
+Set to: your-cloudinary-cloud-name
+(Get from Cloudinary Console → Dashboard)
 ```
 
 **5. CLOUDINARY_API_KEY**
 ```
-Keep: 423974853267223
+Set to: your-cloudinary-api-key
+(Get from Cloudinary Console → API Keys)
 ```
 
 **6. CLOUDINARY_API_SECRET**
 ```
-Keep: DUKgZRcrnDhWxUSmuAp-sf1T-yA
+Set to: your-cloudinary-api-secret
+(Get from Cloudinary Console → API Keys)
 ```
 
 **7. GOOGLE_CLIENT_ID**
@@ -106,19 +109,19 @@ Copy the generated secret (it will look like: `aBc123XyZ...`)
 
    **Variable 4: CLOUDINARY_CLOUD_NAME**
    - Key: `CLOUDINARY_CLOUD_NAME`
-   - Value: `daxildt7a`
+   - Value: `your-cloudinary-cloud-name`
    - Environment: Select **Production**, **Preview**, and **Development**
    - Click **Save**
 
    **Variable 5: CLOUDINARY_API_KEY**
    - Key: `CLOUDINARY_API_KEY`
-   - Value: `423974853267223`
+   - Value: `your-cloudinary-api-key`
    - Environment: Select **Production**, **Preview**, and **Development**
    - Click **Save**
 
    **Variable 6: CLOUDINARY_API_SECRET**
    - Key: `CLOUDINARY_API_SECRET`
-   - Value: `DUKgZRcrnDhWxUSmuAp-sf1T-yA`
+   - Value: `your-cloudinary-api-secret`
    - Environment: Select **Production**, **Preview**, and **Development**
    - Click **Save**
 
@@ -184,9 +187,9 @@ Copy-paste this into Vercel (after generating NEXTAUTH_SECRET):
 MONGODB_URI=mongodb+srv://<username>:<password>@<cluster>.mongodb.net/?retryWrites=true&w=majority
 NEXTAUTH_URL=https://infusion-ashy.vercel.app
 NEXTAUTH_SECRET=[GENERATE_THIS_USING_STEP_1]
-CLOUDINARY_CLOUD_NAME=daxildt7a
-CLOUDINARY_API_KEY=423974853267223
-CLOUDINARY_API_SECRET=DUKgZRcrnDhWxUSmuAp-sf1T-yA
+CLOUDINARY_CLOUD_NAME=your-cloudinary-cloud-name
+CLOUDINARY_API_KEY=your-cloudinary-api-key
+CLOUDINARY_API_SECRET=your-cloudinary-api-secret
 GOOGLE_CLIENT_ID=your-google-client-id.apps.googleusercontent.com
 GOOGLE_CLIENT_SECRET=your-google-client-secret
 ```
